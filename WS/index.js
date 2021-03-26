@@ -1,4 +1,5 @@
 const http = require('http');
+const WebSocketServer = require('websocket').server;
 
 const httpServer = http.createServer((req, res) => {
   console.log('we have received a request');
